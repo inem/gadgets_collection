@@ -20,6 +20,7 @@ Progress:
 
 + sign up
 + sign in
+- sign out
 
 + create gadget
 + upload picture for gadget
@@ -27,3 +28,15 @@ Progress:
 list of gadgets
   + cover flow
   + list mode
+
+
+Tests:
+- able to sign up
+- able to sign in
+- able to sign out
+- able to see navigation
+- able to create gadget
+- able to see list of gadgets
+- able to switch mode of list of gadgets
+- able to see gadget page
+- list mode stays the same after return from gadget
