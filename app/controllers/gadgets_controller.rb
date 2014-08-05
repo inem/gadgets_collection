@@ -1,10 +1,12 @@
 class GadgetsController < ApplicationController
+  before_action :authenticate_user!
+
   def show
     @gadget = Gadget.find(params[:id])
   end
 
   def index
-    @gadgets = Gadget.all
+    @gadgets = current_user.gadgets
     template = params[:mode] == 'list' ? '_list' : '_imgs'
     cookies[:mode] = params[:mode]
     render template
@@ -15,7 +17,9 @@ class GadgetsController < ApplicationController
   end
 
   def create
-    @gadget = Gadget.create(gadget_params)
+    @gadget = Gadget.new(gadget_params)
+    @gadget.user_id = current_user.id
+    @gadget.save
     redirect_to gadgets_path
   end
 
