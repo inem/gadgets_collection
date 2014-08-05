@@ -14,3 +14,32 @@ Bonus: Use TDD (should be visible in the git log)
 
 The implementation should be DRY, restful and well-tested - please keep the
 code minimal and avoid from using scaffolds.
+
+====================
+
+Progress:
+
++ sign up
++ sign in
++ sign out
+
++ create gadget
++ upload picture for gadget
+
+list of gadgets
+  + cover flow
+  + list mode
+
++ privacy
+
+
+Tests:
+- able to sign up
+- able to sign in
+- able to sign out
+- able to see navigation
+- able to create gadget
+- able to see list of gadgets
+- able to switch mode of list of gadgets
+- able to see gadget page
+- list mode stays the same after return from gadget

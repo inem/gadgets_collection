@@ -1,0 +1,15 @@
+<b> List </b>
+<%= link_to 'Cover flow', gadgets_path(:mode => :imgs) %>
+| <%= link_to 'New gadget', new_gadget_path %>
+<hr/>
+
+<ul>
+<%- @gadgets.each do |gadget|%>
+  <%= link_to gadget do %>
+    <li><%= gadget.name %></li>
+  <% end %>
+<% end %>
+</ul>
+
+<hr />
+<%= link_to 'Sign out', destroy_user_session_path %>
