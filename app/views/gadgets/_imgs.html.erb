@@ -1,5 +1,6 @@
 <%= link_to 'List', gadgets_path(:mode => :list) %>
 <b> Cover flow </b>
+| <%= link_to 'New gadget', new_gadget_path %>
 <hr/>
 
 <%- @gadgets.each do |gadget|%>
