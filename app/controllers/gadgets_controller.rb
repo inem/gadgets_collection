@@ -6,6 +6,7 @@ class GadgetsController < ApplicationController
   def index
     @gadgets = Gadget.all
     template = params[:mode] == 'list' ? '_list' : '_imgs'
+    cookies[:mode] = params[:mode]
     render template
   end
 
