@@ -21,10 +21,9 @@ Progress:
 + sign up
 + sign in
 
-- create gadget
-- update gadget
-- upload picture for gadget
++ create gadget
++ upload picture for gadget
 
 list of gadgets
-  - cover flow
+  + cover flow
   - list mode
