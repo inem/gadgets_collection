@@ -39,6 +39,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.0.0'
-  gem 'capybara'
+  gem 'rspec-rails', '>= 3.0.0'
+  gem 'selenium-webdriver', '>=2.35.1'
+  gem 'capybara', '>=2.4.1'
 end
