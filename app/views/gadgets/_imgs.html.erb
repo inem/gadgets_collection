@@ -1,5 +1,10 @@
+<%= link_to 'List', gadgets_path(:mode => :list) %>
+<b> Cover flow </b>
+<hr/>
+
 <%- @gadgets.each do |gadget|%>
   <%= link_to gadget do %>
     <%= image_tag gadget.image.thumb('400x200#').url%>
   <% end %>
 <% end %>
+

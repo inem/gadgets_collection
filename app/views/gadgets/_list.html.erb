@@ -1,0 +1,13 @@
+<b> List </b>
+<%= link_to 'Cover flow', gadgets_path(:mode => :imgs) %>
+<hr/>
+
+<ul>
+<%- @gadgets.each do |gadget|%>
+  <%= link_to gadget do %>
+    <li><%= gadget.name %></li>
+  <% end %>
+<% end %>
+</ul>
+
+
