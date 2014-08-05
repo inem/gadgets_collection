@@ -14,3 +14,17 @@ Bonus: Use TDD (should be visible in the git log)
 
 The implementation should be DRY, restful and well-tested - please keep the
 code minimal and avoid from using scaffolds.
+
+
+Progress:
+
++ sign up
++ sign in
+
+- create gadget
+- update gadget
+- upload picture for gadget
+
+list of gadgets
+  - cover flow
+  - list mode
