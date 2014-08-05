@@ -34,10 +34,10 @@ list of gadgets
 
 
 Tests:
-- able to sign up
-- able to sign in
-- able to sign out
-- able to see navigation
++ able to sign up
++ able to sign in
++ able to sign out
++ able to see navigation
 - able to create gadget
 - able to see list of gadgets
 - able to switch mode of list of gadgets
