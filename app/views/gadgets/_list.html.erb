@@ -5,9 +5,9 @@
 
 <ul>
 <%- @gadgets.each do |gadget|%>
-  <%= link_to gadget do %>
-    <li><%= gadget.name %></li>
-  <% end %>
+  <li class="gadget">
+    <%= link_to gadget.name, gadget %>
+  </li>
 <% end %>
 </ul>
 

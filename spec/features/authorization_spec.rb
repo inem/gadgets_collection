@@ -41,15 +41,3 @@ describe "the signup process", :type => :feature do
     expect(page).to have_content 'Sign up'
   end
 end
-
-def sign_in(user = nil)
-  unless user
-    email = 'user@example.com'
-    password = 'password'
-    user = User.create(email: email, password: password)
-  end
-
-  fill_in 'Email', :with => user.email
-  fill_in 'Password', :with => user.password
-  click_button 'Sign in'
-end

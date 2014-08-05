@@ -4,9 +4,11 @@
 <hr/>
 
 <%- @gadgets.each do |gadget|%>
-  <%= link_to gadget do %>
-    <%= image_tag gadget.image.thumb('400x200#').url%>
-  <% end %>
+  <span class="gadget">
+    <%= link_to gadget do %>
+      <%= image_tag gadget.image.thumb('400x200#').url%>
+    <% end %>
+  </span>
 <% end %>
 
 <hr />
