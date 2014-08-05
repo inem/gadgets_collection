@@ -1,3 +1,5 @@
+require_relative '../rails_helper'
+
 describe "the signup process", :type => :feature do
   # before :each do
   #   User.make(:email => 'user@example.com', :password => 'caplin')
