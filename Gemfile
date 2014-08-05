@@ -43,6 +43,6 @@ gem 'spring',        group: :development
 
 group :development, :test do
   gem 'rspec-rails'
-  gem "capybara", '~> 2.2.1'
+  gem "capybara", '~> 2.3'
   gem "capybara-webkit"
 end
