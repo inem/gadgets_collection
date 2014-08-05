@@ -1,2 +1,5 @@
 <h1><%= @gadget.name %></h1>
 <%= image_tag @gadget.image.thumb('600x400#').url%>
+
+<hr/>
+<%= link_to 'Back', gadgets_path %>

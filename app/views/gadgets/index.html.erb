@@ -1,3 +1,5 @@
 <%- @gadgets.each do |gadget|%>
-  <%= image_tag gadget.image.thumb('400x200#').url%>
+  <%= link_to gadget do %>
+    <%= image_tag gadget.image.thumb('400x200#').url%>
+  <% end %>
 <% end %>
