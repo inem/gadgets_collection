@@ -26,4 +26,4 @@ Progress:
 
 list of gadgets
   + cover flow
-  - list mode
+  + list mode
